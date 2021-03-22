@@ -14,13 +14,8 @@ const pool = new Client({
     user: 'postgres',
     host: 'localhost',
     database: 'library',
-    password: 'sreyes1Sam',
+    password: '_',
     port: 5432,
-    /*user: 'lbgjydhkbmescy',
-    host: 'ec2-3-221-49-44.compute-1.amazonaws.com',
-    database: 'd6spor1ug98i62',
-    password: '694aceae5758dc59c1d8131bb142c34650f1c8ff58b7fe7c6ff2f48267a4df36',
-    port: '5432',*/
 });
 
 // Used for Parameterized SQL Queries to prevent SQL Injection
