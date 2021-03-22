@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang = "en" onload = "loadData()"></html>
+
+<head>
+    <meta charset = "utf-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv = "x-ua-compatible" content = "ie=edge">
+
+    <!-- Bootstrap CSS (fetched from web)-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <title>Book Library</title>
+    <script src="script.js"></script>
+</head>
+
+<body onload = "loadData()">
+    <nav class="navbar navbar-expand navbar-dark bg-dark">  
+        <div class="container">
+          <a class="navbar-brand" href="/indexpage">Library</a>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="/indexpage">Home</a>
+              <a class="nav-link" href="/borrowpage">Borrow a Book</a>
+              <a class="nav-link active" href="/listpage">List of Books</a>
+            </div>
+          </div>
+        </div>
+    </nav>
+    
+    <div class = "container">
+        <div class = "Heading">
+            <p>
+            <h2>List of Books</h2>
+            </p>
+        </div>
+        <div class = "card mb-2" id = "bookInfo">
+            <!--<div class = "card-body">
+                <h5 class = "card-title">Eragon</h5>
+                <h6 class = "card-subtitle text-muted">Christopher Paolini</h6>
+            </div>-->
+        </div>
+    </div>
+</body>
+
