@@ -7,3 +7,5 @@ Click [here](https://docs.google.com/presentation/d/1NgRq8GDHyftGMMYGjiyhp0JfD1K
 ## Screens
 
 <img src = "https://user-images.githubusercontent.com/62797899/112095864-47895c00-8bc3-11eb-9237-f52b1a4ef427.png" width = "550">
+<img src = "https://user-images.githubusercontent.com/62797899/112095957-6daefc00-8bc3-11eb-9c2b-69db40ed679d.png" width = 550">
+
