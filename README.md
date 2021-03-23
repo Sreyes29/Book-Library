@@ -7,4 +7,4 @@ Click [here](https://docs.google.com/presentation/d/1NgRq8GDHyftGMMYGjiyhp0JfD1K
 ## Screens
 
 Login Page
-<img src = "https://user-images.githubusercontent.com/62797899/112095618-d184f500-8bc2-11eb-86eb-96e9eb9527db.png" width = "550">
+<img src = "https://user-images.githubusercontent.com/62797899/112095864-47895c00-8bc3-11eb-9237-f52b1a4ef427.png" width = "550">
