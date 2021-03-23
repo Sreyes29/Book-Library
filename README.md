@@ -7,7 +7,7 @@ Click [here](https://docs.google.com/presentation/d/1NgRq8GDHyftGMMYGjiyhp0JfD1K
 ## Screens
 
 <h3>Login</h3>
-<img src = "https://user-images.githubusercontent.com/62797899/112095864-47895c00-8bc3-11eb-9237-f52b1a4ef427.png" width = "550">
+<img src = "https://user-images.githubusercontent.com/62797899/112096443-4442a000-8bc4-11eb-9578-33fd9a75c0f1.png" width = "550">
 <h3>Library</h3>
 <img src = "https://user-images.githubusercontent.com/62797899/112095957-6daefc00-8bc3-11eb-9c2b-69db40ed679d.png" width = 550">
 <h3>Borrow a Book</h3>
