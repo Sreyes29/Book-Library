@@ -4,8 +4,12 @@ Users can also borrow books and also reserve them in the library publicly for ev
 
 Click [here](https://docs.google.com/presentation/d/1NgRq8GDHyftGMMYGjiyhp0JfD1KNtd3sMPDpYdnXx-o/edit?usp=sharing) to view the full documentation of this project.
 
-## Screens
+## Major Technologies 
+|Area|Technology|
+|:---|:---------|
+|Front-End|HTML, CSS, Bootstrap|
 
+## Screens
 <h3>Login</h3>
 <img src = "https://user-images.githubusercontent.com/62797899/112096443-4442a000-8bc4-11eb-9578-33fd9a75c0f1.png" width = "550">
 <h3>Library</h3>
