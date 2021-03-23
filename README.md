@@ -8,6 +8,9 @@ Click [here](https://docs.google.com/presentation/d/1NgRq8GDHyftGMMYGjiyhp0JfD1K
 |Area|Technology|
 |:---|:---------|
 |Front-End|HTML, CSS, Bootstrap|
+|Login|Bcrypt.js|
+|Back-End|Node.js|
+|Database Management|PostgreSQL|
 
 ## Screens
 <h3>Login</h3>
