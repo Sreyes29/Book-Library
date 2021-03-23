@@ -4,7 +4,7 @@ Users can also borrow books and also reserve them in the library publicly for ev
 
 Click [here](https://docs.google.com/presentation/d/1NgRq8GDHyftGMMYGjiyhp0JfD1KNtd3sMPDpYdnXx-o/edit?usp=sharing) to view the full documentation of this project.
 
-## Major Technologies 
+## Technologies Used 
 |Area|Technology|
 |:---|:---------|
 |Front-End|HTML, CSS, Bootstrap|
