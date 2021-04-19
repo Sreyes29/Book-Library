@@ -14,7 +14,7 @@ const pool = new Client({
     user: 'postgres',
     host: 'localhost',
     database: 'library',
-    password: '_',
+    password: 'sreyes1Sam',
     port: 5432,
 });
 
@@ -202,11 +202,11 @@ const server = http.createServer((req, res) => {
             
             var obj = JSON.parse(content);
 
-            console.log(obj.Username, obj.Password);
+            console.log(obj.Username, obj.Password, obj.Email, obj.Phone);
 
             bcrypt.hash(obj.Password, 10, function(err, hash) {
                 pool.connect(function(err) {
-                    let sql = format('INSERT INTO %I(username, password) VALUES (%L, %L)', 'login', obj.Username, hash);
+                    let sql = format(`INSERT INTO %I(borrower_name, password, email, phone) VALUES (%L, %L, %L, %L);`, 'login', obj.Username, hash, obj.Email, obj.Phone);
                     console.log(sql);
                     pool.query(sql, function(error, result, fields) {
                     });
@@ -231,8 +231,9 @@ const server = http.createServer((req, res) => {
             console.log(obj.Username, obj.Password);
 
             pool.connect(function(err) {
-                sql = format('SELECT * FROM %I where username = %L', 'login', obj.Username);
+                sql = format('SELECT * FROM %I where borrower_name = %L', 'login', obj.Username);
                 pool.query(sql, function(error, r, fields) {
+                    if (error) throw error;
                     var results = r.rows;
 
                     bcrypt.compare(obj.Password, results[0].password, function(err, result) {

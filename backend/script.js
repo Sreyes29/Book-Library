@@ -65,12 +65,15 @@ function borrowBook() {
 }
 
 function createUser() {
-    let username, pass;
+    let username, pass, email, phone;
     var xhttp = new XMLHttpRequest();
     
 
     username = document.getElementById("RegisterUsername").value;
     pass = document.getElementById("RegisterPassword").value;
+    email = document.getElementById("EmailID").value;
+    phone = document.getElementById("PhoneNumber").value;
+
     console.log(username, pass);
 
     if(username == "") alert("Please enter your username!");
@@ -86,7 +89,7 @@ function createUser() {
         }
         xhttp.open("POST", "/createuser", true);
         xhttp.setRequestHeader("Content-Type", "application/json");
-        xhttp.send('{"Username":"'+username+'", "Password":"'+pass+'"}');
+        xhttp.send('{"Username":"'+username+'", "Password":"'+pass+'", "Email":"'+email+'", "Phone":"'+phone+'"}');
     }
 }
 
