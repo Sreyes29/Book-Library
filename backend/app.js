@@ -150,7 +150,7 @@ const server = http.createServer((req, res) => {
 
             console.log(`The book name is ${obj.bookName} and the book author is ${obj.bookAuthor}.`);
             pool.connect(function(err) {
-                let sql = format(`INSERT INTO %I(book_name, book_borrowed_status, book_author, book_reserved_status, borrower_name) VALUES (%L, %s, %L, false, '');`, 'books', obj.bookName, obj.borrow, obj.bookAuthor);
+                let sql = format(`INSERT INTO %I(book_name, book_borrowed_status, book_author, book_reserved_status, borrower_name, price, edition) VALUES (%L, %s, %L, false, '', %L, %L);`, 'books', obj.bookName, obj.borrow, obj.bookAuthor, obj.price, obj.edition);
                 console.log(sql);
                 pool.query(sql, function(error, result, fields) {
                 });

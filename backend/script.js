@@ -1,9 +1,11 @@
 // Getting data from textboxes using DOM manipulation when the Add button is clicked
 function addToLibrary() {
-    let bookName, bookAuthor, borrow;
+    let bookName, bookAuthor, borrow, edition, price;
 
     bookName = document.getElementById("BookName").value;
     bookAuthor = document.getElementById("Author").value;
+    edition = document.getElementById("Edition").value;
+    price = document.getElementById("Price").value;
     if(document.getElementById("yes").checked) borrow = true;
     else if(document.getElementById("no").checked) borrow = false;
 
@@ -27,7 +29,7 @@ function addToLibrary() {
         }
         xhttp.open("POST", "/insert", true);
         xhttp.setRequestHeader("Content-Type", "application/json");
-        xhttp.send('{"bookName":"'+bookName+'", "bookAuthor":"'+bookAuthor+'", "borrow":"'+borrow+'"}')
+        xhttp.send('{"bookName":"'+bookName+'", "bookAuthor":"'+bookAuthor+'", "borrow":"'+borrow+'", "price":"'+price+'", "edition":"'+edition+'"}')
     }
 }
 
